@@ -1,1 +1,120 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lelewal TV - Actualités</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f5f7;color:#222}
+header{background:#111;color:white;padding:15px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px}
+.logo img{width:75px;height:75px;object-fit:contain}
+.logo h1{margin:0;font-size:25px}
+.logo span{color:#a78bfa}
+nav{display:flex;flex-wrap:wrap;gap:15px;margin-top:10px}
+nav a{color:white;text-decoration:none;font-weight:bold;font-size:14px}
+nav a:hover{color:#a78bfa}
+.banner{background:#6d28d9;color:white;padding:40px 5%;text-align:center}
+.banner h2{font-size:34px;margin:0 0 12px}
+.banner p{font-size:17px}
+.container{max-width:1100px;margin:auto;padding:25px 15px}
+.section-title{border-left:5px solid #6d28d9;padding-left:12px;margin:25px 0;font-size:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:white;border-radius:10px;padding:20px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.card h3{margin-top:0}
+.social{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}
+.btn{display:inline-block;padding:12px 18px;border-radius:8px;color:white;text-decoration:none;font-weight:bold}
+.fb{background:#1877f2}
+.yt{background:#e60000}
+.tt{background:#111}
+.wa{background:#16a34a}
+.ad{background:#fff3cd;border:1px solid #ffe08a;padding:25px;border-radius:10px;text-align:center}
+footer{background:#111;color:white;text-align:center;padding:25px;margin-top:30px}
+footer a{color:#c4b5fd}
+@media(max-width:600px){header{justify-content:center;text-align:center}.banner h2{font-size:27px}.logo{justify-content:center}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">
+<img src="lelewal_logo.png" alt="Logo Lelewal TV">
+<div><h1>LELEWAL <span>TV</span></h1><small>Votre média numérique</small></div>
+</div>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#actualites">Actualités</a>
+<a href="#fouta">Fouta</a>
+<a href="#videos">Vidéos</a>
+<a href="#publicite">Publicité</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="banner" id="accueil">
+<h2>Bienvenue sur Lelewal TV</h2>
+<p>Votre actualité, votre culture, votre voix.</p>
+<p>Le média qui vous rapproche de l'information.</p>
+</section>
+
+<main class="container">
+<h2 class="section-title" id="actualites">Actualités</h2>
+<div class="grid">
+<div class="card">
+<h3>Actualités Sénégal</h3>
+<p>Retrouvez les informations, les événements et les faits marquants du Sénégal.</p>
+</div>
+<div class="card" id="fouta">
+<h3>Actualités du Fouta</h3>
+<p>Découvrez les nouvelles, les initiatives et les événements dans le Fouta.</p>
+</div>
+<div class="card">
+<h3>Culture</h3>
+<p>Découvrez la culture, les artistes, les traditions et les événements culturels.</p>
+</div>
+<div class="card">
+<h3>Sport</h3>
+<p>Suivez l'actualité sportive, les compétitions et les performances.</p>
+</div>
+</div>
+
+<h2 class="section-title" id="videos">Nos vidéos</h2>
+<div class="card">
+<p>Retrouvez nos reportages, nos productions, nos vidéos de divertissement et nos contenus exclusifs sur nos réseaux sociaux.</p>
+<div class="social">
+<a class="btn yt" href="https://www.youtube.com/@LelewalTV" target="_blank">YouTube</a>
+<a class="btn fb" href="https://www.facebook.com/lelewaltv?locale=fr_FR" target="_blank">Facebook</a>
+<a class="btn tt" href="https://www.tiktok.com/@lelewaltv" target="_blank">TikTok</a>
+</div>
+</div>
+
+<h2 class="section-title" id="publicite">Publicité et partenariat</h2>
+<div class="ad">
+<h3>Faites connaître votre activité avec Lelewal TV !</h3>
+<p>Nous accompagnons les entreprises, commerçants, artistes et entrepreneurs dans la promotion de leurs produits et services.</p>
+<a class="btn wa" href="https://wa.me/221762076463" target="_blank">Nous contacter sur WhatsApp</a>
+</div>
+
+<h2 class="section-title" id="contact">Contactez-nous</h2>
+<div class="card">
+<p>Pour vos publicités, partenariats, reportages et collaborations, contactez Lelewal TV.</p>
+<div class="social">
+<a class="btn wa" href="https://wa.me/221762076463" target="_blank">WhatsApp</a>
+<a class="btn fb" href="https://www.facebook.com/lelewaltv?locale=fr_FR" target="_blank">Facebook</a>
+<a class="btn yt" href="https://www.youtube.com/@LelewalTV" target="_blank">YouTube</a>
+<a class="btn tt" href="https://www.tiktok.com/@lelewaltv" target="_blank">TikTok</a>
+</div>
+</div>
+</main>
+
+<footer>
+<p><strong>LELEWAL TV</strong></p>
+<p>Votre média numérique</p>
+<p>© 2026 Lelewal TV - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
+
